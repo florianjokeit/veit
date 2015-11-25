@@ -104,6 +104,10 @@ body {
   font-weight: bold;
 }
 
+.lead {
+    float: center;
+}
+
 
 /* Footer */
 

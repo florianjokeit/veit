@@ -4,31 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Informationen ueber mein Studium">
     <meta name="author" content="Niklas Veit">
     <link rel="icon" href="crown.ico">
 
     <title>Mein Studium</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
@@ -39,7 +25,14 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Mehr ueber mein Studium</h3>
+		<form class="masterhead-brand" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+		    <fieldset>
+			<a href="https://wave.webaim.org/report#/veit.cloudcontrolled.com/studium.html"><img src="_data/wai-AAA.gif"/></a>
+			<input type="text" name="search" value="" style="color:black"/>
+			<input type="submit" name="go" value="Artikel" style="color:black"/>
+			<input type="submit" name="fulltext" value="Volltext" style="color:black"/>
+		    </fieldset>
+		</form>
               <nav>
                 <ul class="nav masthead-nav">
                   <li><a href="index.html">Home</a></li>
@@ -56,14 +49,14 @@
           <div class="inner cover">
     	    <h1 class="cover-heading">Informationen zu meinem Studium</h1>
             <p class="lead">
-        	<h4>Allgemeines</h4>
+        	<h2>Allgemeines</h2>
         	Ich studiere Informatik an der
         	<a href="http://www.thm.de/site/">
         	Technischen Hochschule Mittelhessen</a>.
         	Zu meiner Freude habe ich saemtliche Pruefungen des ersten Semesters
         	bestanden und befinde mich nun mitten im zweiten Semester.
         	Natuerlich hatte auch ich bisher einige <a href="#probleme">Probleme</a>, aber auch <a href="#lieblingsf">Lieblingsfaecher</a>.
-    		<a name="lieblingsf" style="text-decoration:none"><h4>Lieblingsfaecher</h4></a>
+    		<a name="lieblingsf" style="text-decoration:none"><h3>Lieblingsfaecher</h3></a>
     		<ul>
     		    <li>
     			<b>Objektorientierte Programmierung (OOP)</b>
@@ -85,7 +78,7 @@
     			von Stochastik. Beendet wurde diese Veranstaltung mit dem Thema Relationen.
     		    </li>
     		</ul>
-    		<a name="probleme" style="text-decoration:none"><h4>Probleme</h4></a>
+    		<a name="probleme" style="text-decoration:none"><h3>Probleme</h3></a>
     		<ul>
     		    <li>
     			<b>Grundlagen der Informatik (GDI)</b>
@@ -108,13 +101,9 @@
 
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

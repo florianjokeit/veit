@@ -29,18 +29,14 @@ body {
   background-color: #333;
   background-image:url(_data/index.jpg);
   background-attachment:fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
 }
 
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-}
-
-body.modal-open {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
